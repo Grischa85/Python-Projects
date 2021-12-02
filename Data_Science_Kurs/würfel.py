@@ -1,7 +1,7 @@
 import random
 import time
 
-"""Das Ziel es die eingegebene Zahl zu würfeln"""
+"""Das Ziel ist es die eingegebene Zahl zu würfeln"""
 
 
 spieler_score = 0
