@@ -1,0 +1,11 @@
+import pandas as pd
+import seaborn as sns
+
+url = 'https://en.wikipedia.org/wiki/World_population'
+tables = pd.read_html(url)
+
+tables = pd.DataFrame(data=tables[5])
+tables2 = tables
+print(tables2)
+
+bar = sns.barplot(data=tables,y = 'Country' ,x='Population')
