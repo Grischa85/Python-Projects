@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+
+ax = plt.subplot()
+
+x = [1,2,3,4,5,6,7,8,9,10,11,12]
+y = [3,5,6,2,9,13,7,5,15,25,17,10]
+y2 = [4,7,9,6,14,19,14,13,24,25,28,22]
+
+plt.plot(x,y, label="2020")
+plt.plot(x,y2, label="2021")
+
+
+
+ax.legend()
+ax.set_xlim([0,12])
+ax.set_ylim([0,30])
+ax.set_title("Aktie")
+ax.set_xlabel("Monate(Zeit)")
+ax.set_ylabel("Aktienkurs")
+plt.show()
