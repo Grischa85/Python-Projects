@@ -3,9 +3,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 from googletrans import Translator
-from gtts import gTTS
 import speech_recognition as sr
-import os
 
 
 
